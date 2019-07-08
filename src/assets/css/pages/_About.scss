@@ -1,0 +1,86 @@
+/**************** Pages ****************/
+
+/********** Home Page **********/
+
+.about {
+  h1 {
+    font-size: 30px;
+    margin-top: 60px;
+    margin-bottom: 16px;
+  }
+  .cover-img {
+    width: 100vw;
+    height: 475px;
+    background-image: url("https://res.cloudinary.com/explority/image/upload/c_scale,h_1565/v1559051896/barefoot-beach-blur-296879_elqswr.jpg");
+    display: flex;
+    justify-content: space-between;
+
+    .cover-img-wrapper {
+      margin: 0 auto;
+      align-items: flex-start;
+      h1 {
+        width: 700px;
+        font-size: 24px;
+        margin-top: 40px;
+      }
+      .person-img {
+        width: 200px;
+        img {
+          height: auto;
+          width: 200px;
+        }
+      }
+    }
+  }
+  .wrapper-middle-section {
+    font-size: 19px;
+    width: 760px;
+    line-height: 1.7;
+    margin-top: 60px;
+
+    p {
+      margin-top: 24px;
+      line-height: 1.7;
+      font-size: 21px;
+    }
+  }
+  .contact-container-about,
+  .main-service-about {
+    margin-top: 140px;
+  }
+}
+@media (max-width: 700px) {
+  .container {
+    width: 95% !important;
+    margin: 0 auto !important;
+    padding: 0 !important;
+  }
+  .about {
+    .cover-img-wrapper {
+      width: 95%;
+
+      h1 {
+        width: 80% !important;
+        font-size: 18px !important;
+        margin-top: 20px !important;
+      }
+    }
+  }
+  .main-service {
+    width: 100% !important;
+    width: 95% !important;
+    margin: 0 auto !important;
+    .main-service-container {
+      display: block !important;
+    }
+  }
+}
+@media (max-width: 420px) {
+  .contact-form-container {
+  }
+}
+@media (max-width: 360px) {
+  .main-service-el {
+    display: block !important;
+  }
+}

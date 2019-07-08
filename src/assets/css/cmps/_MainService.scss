@@ -1,0 +1,18 @@
+.main-service{
+    margin: 0 auto;
+    width:760px;
+    margin-top: 118px;
+    margin-bottom: 110px !important;
+    .main-service-container{
+        display:flex;
+        justify-content: space-between;
+        .main-service-el{
+            display: flex;
+            justify-content: space-between;
+            margin: 16px 0;
+            width:334px;
+        }
+ 
+    }
+    
+}

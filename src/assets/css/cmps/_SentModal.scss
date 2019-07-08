@@ -1,0 +1,42 @@
+.sent-modal {
+  padding-top: 48px;
+  width: 320px;
+  border: 1px solid #c1c1c1;
+  margin: 0 auto;
+  margin-top: 50px;
+  height: 200px;
+  box-shadow: rgba(0, 0, 0, 0.06) -0.0698px 3.9994px 18px 0px;
+  border: 1px solid #eeeeee;
+  .message {
+    text-align: center;
+    margin: 0 auto;
+  }
+  button {
+    // background-color: white;
+    // width: 70px;
+    // height: 30px;
+    // margin-top: 26px;
+    // border: 1px solid lightgreen;
+    // margin-right: 125px;
+    // color: lightgreen;
+    box-shadow: 0; 
+    border: none; 
+    background-color: #48c9b0;
+    border-color: #48c9b0;
+    color: #ffffff;
+    outline: none;
+    -webkit-font-smoothing: subpixel-antialiased;
+    transition: all .5s;
+    padding: 10px 19px;
+    font-size: 14   px;
+    line-height: 1.471;
+    width: 30%;
+    border-radius: 3px;
+    text-transform: uppercase;
+    margin: auto;
+    margin-top: 1.44em;
+    margin-bottom: .55em;
+    display: inherit;
+    margin-top: 63px;
+  }
+}

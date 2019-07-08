@@ -1,0 +1,26 @@
+.services {
+  width: 90vw;
+  margin: 0 auto;
+  display: flex;
+  h1 {
+    font-size: 30px;
+    margin-bottom: 16px;
+    margin-top: 16px;
+  }
+
+  .side-nav {
+    width: 150px;
+    h1 {
+      font-size:16px;
+    }
+  }
+  .services-list-container {
+    width: 100%;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 20px;
+    
+  }
+
+}

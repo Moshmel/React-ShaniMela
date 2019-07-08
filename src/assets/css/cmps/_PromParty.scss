@@ -1,0 +1,22 @@
+.prom-party{
+    .cover-img{
+        height:475px;
+        width:98vw;
+        margin:0 auto;
+        margin-bottom:70px;
+    }
+    .prom-party-content{
+        width:650px;
+        margin: 0 auto;
+        p{
+            line-height: 1.7;
+            font-size: 21px;
+        }
+    }
+}
+@media (max-width: 700px)
+{
+    .prom-party-content{
+        width:90% !important;
+    }
+}
